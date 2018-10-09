@@ -30,4 +30,14 @@ public class DictionaryCommandline {
             }
         }
     }
+    public void  dictionarySearcher(){
+        System.out.println("nhap tu can tra phien ban 2: ");
+        Scanner sc = new Scanner(System.in);
+        String word = sc.nextLine();
+        for(int i=0;i<doanxem.sl;i++){
+            if(doanxem.list.word.get(i).word_target.startsWith(word)){
+                System.out.println(doanxem.list.word.get(i).word_target);
+            }
+        }
+    }
 }

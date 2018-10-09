@@ -7,5 +7,6 @@ public class Main{
         a.dictionaryBasic();
         DictionaryManagement b = new DictionaryManagement();
         b.insertFromFile();
+        a.dictionarySearcher();
     }
 }
